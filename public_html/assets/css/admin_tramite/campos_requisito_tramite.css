@@ -1,0 +1,26 @@
+/** @format */
+
+.add-new-photo {
+	display: flex;
+	border: 2px dashed #455a64;
+	height: 35px;
+	min-height: 35px;
+	width: 100%;
+	justify-content: center;
+	align-items: center;
+	color: #455a64;
+	border-radius: 4px;
+	cursor: pointer;
+	transition: 0.3s all ease;
+	-webkit-transition: 0.3s all ease;
+	-moz-transition: 0.3s all ease;
+	-ms-transition: 0.3s all ease;
+	-o-transition: 0.3s all ease;
+}
+
+.add-new-photo.first:hover {
+	background: rgba(172, 165, 165, 0.4);
+}
+.add-new-photo .icon-picture {
+	font-size: 22px !important;
+}

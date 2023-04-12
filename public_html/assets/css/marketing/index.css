@@ -1,0 +1,488 @@
+/** @format */
+
+.img-responsivo-agregado{
+  height: 380px;
+  object-fit: cover;
+}
+
+@media (max-width: 640px) {
+  .img-responsivo-agregado{
+    height: 250px;    
+  }
+  
+}
+
+.page-wrapper {
+  padding-top: 30px;
+}
+
+
+.wrapper-ratio-square {
+  position: relative;
+  width: 4.5em;
+  height: 4.5em;
+  background-color: #343a40;
+  border-radius: 0.4em;
+  border-style: double;
+  border-color: #f9f9f9;
+}
+
+.wrapper-date-square {
+  position: absolute;
+  text-align: center;
+  padding: 0.4em;
+  height: 100%;
+  width: 100%;
+  color: #f9f9f9;
+  font-weight: bold;
+}
+
+.card-header span {
+  font-size: 0.8em;
+  font-weight: normal;
+  padding: 0.5em;
+  margin: 0.1em;
+}
+
+.wrapper-date-square h2 {
+  margin: -2.5% 0px;
+  color: rgb(249, 249, 249);
+  text-shadow: rgba(255, 255, 255, 0.1) 2px 2px 3px;
+  font-weight: 800;
+}
+
+/* .container-fluid {
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.hola {
+    padding-right: 15px;
+    padding-left: 15px;
+} */
+
+.card-body {
+  padding: 10px;
+}
+
+.el-element-overlay .el-card-item .el-card-avatar {
+  margin: 0px;
+}
+
+/* para los botones footer del card */
+
+.card-footer .container button {
+  margin: 1px;
+}
+
+/* fin para los botones footer del card */
+/* para doctorado */
+.el-element-overlay .el-card-item {
+  padding-bottom: 0px;
+}
+
+.etiquetas {
+  padding: 0.75rem 0.6rem;
+  border-bottom-left-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+  height: 85px;
+  text-align: left;
+}
+
+.el-card-avatar {
+  border-top-left-radius: 10px 10px;
+  border-top-right-radius: 10px 10px;
+}
+
+.card .card_border_personalizado {
+  border-bottom-left-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+}
+
+/* fin para doctorado */
+
+/* prueba tarjeta */
+.wrapper {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
+.wrapper:focus {
+  outline: 0;
+}
+
+.card_item {
+  background: #fff;
+}
+
+.card_item .one-third {
+  border-right: 1px solid #67757c;
+}
+
+.card_item_campo {
+  color: white;
+  font-weight: 700;
+  border-bottom-left-radius: 14px;
+  border-bottom-right-radius: 14px;
+  text-align: center;
+}
+
+.card_item_campo .one-third {
+  width: 33%;
+  float: left;
+  /*padding: 20px 15px;*/
+  padding: 20px 15px;
+  font-size: 13px;
+}
+
+.card_item_campo sup {
+  position: absolute;
+  bottom: 4px;
+  font-size: 45%;
+  margin-left: 2px;
+}
+
+.card_item_campo .stat {
+  position: relative;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.card_item_campo .stat-value {
+  text-transform: uppercase;
+  font-weight: 400;
+  font-size: 12px;
+}
+
+.card_item_campo .no-border {
+  border-right: none;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+
+/* end prueba tarjeta */
+
+/* fin btn tarjetas */
+
+
+/*@media  (min-width:0px) and (max-width: 768px) {*/
+@media (min-width: 0px) and (max-width: 1392px) {
+  .mini-sidebar .page-wrapper {
+    margin-left: 0px;
+    padding-top: 35px;
+  }
+
+  /* .card_item_campo .one-third {
+    width: auto;
+    font-size: 11px;
+  } */
+  .etiquetas {
+    height: auto;
+    text-align: left;
+  }
+
+  .social-bar {
+    display: none;
+    position: fixed;
+    left: -15px;
+    top: 30%;
+    background-color: white;
+  }
+
+  .social-bar__item {
+    padding: 10px 10px 0px 25px;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    transition-property: transform, opacity;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+  }
+
+  .social-bar__item:hover {
+    transform: translate(15px);
+    opacity: 0.9;
+  }
+
+  .social-bar__fb {
+    background-color: #3b5999;
+  }
+
+  .social-bar__twitter {
+    background-color: #55acee;
+  }
+
+  .social-bar__linkedin {
+    background-color: #0077b5;
+  }
+
+  .social-bar__instagram {
+    background-color: #e4405f;
+  }
+
+  .social-bar__printerest {
+    background-color: #bd081c;
+  }
+
+  /* Tested only in latest version of Chrome, Firefox, Edge, and IE as of July 2018. I first created this pen in July 2014. */
+
+  .flex-container {
+    display: -webkit-box;
+    display: flex;
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .flex-container li {
+    list-style: none;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+  }
+
+  .twitter {
+    background-color: #55acee;
+    -webkit-box-ordinal-group: 6;
+    order: 5;
+  }
+
+  .twitter:hover {
+    background-color: #6fb9f1;
+  }
+
+  .facebook {
+    background-color: #3b5998;
+    -webkit-box-ordinal-group: 4;
+    order: 3;
+  }
+
+  .facebook:hover {
+    background-color: #4365ad;
+  }
+
+  .linkedin {
+    background-color: #0976b4;
+    -webkit-box-ordinal-group: 2;
+    order: 1;
+  }
+
+  .linkedin:hover {
+    background-color: #0a89d1;
+  }
+
+  .codepen {
+    background-color: #181818;
+    -webkit-box-ordinal-group: 3;
+    order: 2;
+  }
+
+  .codepen:hover {
+    background-color: #262626;
+  }
+
+  .dribbble {
+    background-color: #ea4c89;
+    -webkit-box-ordinal-group: 5;
+    order: 4;
+  }
+
+  .dribbble:hover {
+    background-color: #ed6499;
+  }
+
+  .twitter,
+  .facebook,
+  .linkedin,
+  .codepen,
+  .dribbble,
+  .twitter:hover,
+  .facebook:hover,
+  .linkedin:hover,
+  .codepen:hover,
+  .dribbble:hover {
+    -webkit-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+  }
+
+  .flex-container a {
+    display: block;
+  }
+
+  .flex-container i {
+    color: #fff;
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+  /* .card_item_campo .one-third {
+    width: 33%;
+    font-size: 11px;
+  } */
+  .etiquetas {
+    height: 115px;
+    text-align: left;
+  }
+}
+
+/*@media screen and (min-width: 1024px) {*/
+@media screen and (min-width: 1392px) {
+  .social-bar {
+    position: fixed;
+    left: -15px;
+    top: 36%;
+    background-color: white;
+  }
+
+  .social-bar__item {
+    padding: 10px 10px 0px 25px;
+    color: white;
+    /* font-size: 30px; */
+
+    font-size: 23px;
+    text-align: center;
+    transition-property: transform, opacity;
+    transition-duration: 100ms;
+    transition-timing-function: ease-in-out;
+  }
+
+  .social-bar__item:hover {
+    transform: translate(15px);
+    opacity: 0.9;
+  }
+
+  .social-bar__fb {
+    background-color: #3b5999;
+  }
+
+  .social-bar__twitter {
+    background-color: #55acee;
+  }
+
+  .social-bar__linkedin {
+    background-color: #0077b5;
+  }
+
+  .social-bar__instagram {
+    background-color: #e4405f;
+  }
+
+  .social-bar__printerest {
+    background-color: #bd081c;
+  }
+
+  /* Tested only in latest version of Chrome, Firefox, Edge, and IE as of July 2018. I first created this pen in July 2014. */
+
+  .flex-container {
+    display: -webkit-box;
+    display: flex;
+    display: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .flex-container li {
+    list-style: none;
+    -webkit-box-flex: 1;
+    flex-grow: 1;
+  }
+
+  .twitter {
+    background-color: #55acee;
+    -webkit-box-ordinal-group: 6;
+    order: 5;
+  }
+
+  .twitter:hover {
+    background-color: #6fb9f1;
+  }
+
+  .facebook {
+    background-color: #3b5998;
+    -webkit-box-ordinal-group: 4;
+    order: 3;
+  }
+
+  .facebook:hover {
+    background-color: #4365ad;
+  }
+
+  .linkedin {
+    background-color: #0976b4;
+    -webkit-box-ordinal-group: 2;
+    order: 1;
+  }
+
+  .linkedin:hover {
+    background-color: #0a89d1;
+  }
+
+  .codepen {
+    background-color: #181818;
+    -webkit-box-ordinal-group: 3;
+    order: 2;
+  }
+
+  .codepen:hover {
+    background-color: #262626;
+  }
+
+  .dribbble {
+    background-color: #ea4c89;
+    -webkit-box-ordinal-group: 5;
+    order: 4;
+  }
+
+  .dribbble:hover {
+    background-color: #ed6499;
+  }
+
+  .twitter,
+  .facebook,
+  .linkedin,
+  .codepen,
+  .dribbble,
+  .twitter:hover,
+  .facebook:hover,
+  .linkedin:hover,
+  .codepen:hover,
+  .dribbble:hover {
+    -webkit-transition: background-color 0.5s ease;
+    transition: background-color 0.5s ease;
+  }
+
+  .flex-container a {
+    display: block;
+  }
+
+  .flex-container i {
+    color: #fff;
+    line-height: 100px;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.compartir {
+  padding: 0px;
+}
+
+.card_item_campo .arreglo {
+  width: 33%;
+  float: left;
+  /* padding: 11px 15px; */
+  padding: 11px 9px;
+  font-size: 13px;
+}

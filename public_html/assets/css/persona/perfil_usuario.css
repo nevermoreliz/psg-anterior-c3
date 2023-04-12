@@ -1,0 +1,12 @@
+/* .efecto_sticky {
+    position: sticky;
+    top: 120px;
+} */
+
+@media (min-width: 768px) {
+
+    .efecto_sticky_perfil_usuario {
+        position: sticky;
+        top: 120px;
+    }
+  }

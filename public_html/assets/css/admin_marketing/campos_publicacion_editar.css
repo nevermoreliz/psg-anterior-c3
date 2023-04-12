@@ -1,0 +1,108 @@
+.add-new-photo {
+  display: flex;
+  border: 4px dashed #ffb22b;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: #ffb22b;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+}
+
+.add-new-photo.first:hover {
+  background: rgba(172, 165, 165, 0.4);
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.image-container img {
+  /* min-width: 100%; */
+  min-width: 100%;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+figure figcaption {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  height: 100%;
+
+  align-items: center;
+  justify-content: center;
+  background: rgba(0, 0, 0, 0.4);
+  color: #fff;
+  font-size: 44px;
+  cursor: pointer;
+  opacity: 0;
+  transition: 0.3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -moz-transition: 0.3s all ease;
+  -ms-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+}
+
+figure figcaption:hover {
+  opacity: 1;
+}
+
+figure {
+  margin: 0 0 0;
+}
+
+/* preuba */
+/* .view_all_dt {
+  float: left;
+  width: 100%;
+  padding-bottom: 30px;
+  padding-top: 30px;
+  border-bottom: 1px solid #efefef;
+} */
+
+.view_img_left {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+.view__img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+img {
+  vertical-align: middle;
+  border-style: none;
+}
+
+/* end prueba */
+
+.custom-file-input~.custom-file-label::after {
+  content: "Select file";
+}

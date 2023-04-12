@@ -1,0 +1,8 @@
+/** @format */
+.mfp-wrap {
+    z-index: 3000 !important;
+}
+
+.mfp-bg {
+    z-index: 3000 !important;
+}

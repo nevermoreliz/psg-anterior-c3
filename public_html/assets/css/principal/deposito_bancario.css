@@ -1,0 +1,7 @@
+#dep_matricula .custom-file-input~.custom-file-label::after {
+    content: "Subir Deposito";
+  }
+  
+  #dep_cuota_inicial .custom-file-input~.custom-file-label::after {
+    content: 'Subir Deposito';
+  }  

@@ -1,0 +1,84 @@
+.detalle_img {
+  padding-bottom: 0px;
+}
+
+.detalle_datos {
+  padding-top: 0px;
+  /* border-top: 2px solid black; */
+}
+
+/* persegir lado lateral */
+
+/* .efecto_sticky {
+  position: sticky;
+  top: 120px;
+} */
+
+@media (min-width: 768px) {
+
+  .efecto_sticky {
+      position: sticky;
+      top: 120px;
+  }
+}
+
+
+/* .efecto_sticky_matricula {
+  position: sticky;
+  top: 120px;
+}
+
+.efecto_sticky_colegiatura {
+  position: sticky;
+  top: 220px;
+}
+
+.efecto_sticky_contacto {
+  position: sticky;
+  top: 320px;
+}
+
+.efecto_sticky_direccion {
+  position: sticky;
+  top: 610px;
+} */
+
+/* fin persegir lado lateral */
+
+@media (min-width: 0px) and (max-width: 1024px) {
+  .nav-tabs .nav-item {
+    width: 100%;
+  }
+
+  .card-body {
+    text-align: center;
+  }
+}
+
+/** cambar a min para cuando quires q sea a al reves el efecto*/
+@media(max-width: 1266px) {
+  /* .aparece_boton {
+    display: none;
+  } */
+
+}
+
+#ci_delante .custom-file-input~.custom-file-label::after {
+  content: "Subir Anverso del CI";
+}
+
+#ci_atras .custom-file-input~.custom-file-label::after {
+  content: "Subir Reverso del CI";
+}
+
+#diploma_academico .custom-file-input~.custom-file-label::after {
+  content: "Subir Diploma";
+}
+
+#dep_matricula .custom-file-input~.custom-file-label::after {
+  content: "Subir Deposito";
+}
+
+#dep_cuota_inicial .custom-file-input~.custom-file-label::after {
+  content: 'Subir Deposito';
+}

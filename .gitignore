@@ -1,0 +1,19 @@
+git public_html/uploads
+application/config/config.php
+application/config/database.php
+#public_html/img/
+
+application/cache/*
+!application/cache/index.html
+
+application/logs/*
+!application/logs/index.html
+
+!application/*/.htaccess
+
+#application/vendor/
+#application/composer.lock
+
+# IDE Files
+#-------------------------
+.idea/*
